@@ -1,0 +1,8 @@
+# Ignore the files with the extension #
+######################################
+.DS_Store
+.Rhistory
+.gz
+.log
+.aux
+
