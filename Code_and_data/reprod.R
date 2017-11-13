@@ -1,13 +1,13 @@
 ## Read the data
-setwd("~/Repos/Mangrove/Mineralogy/Measurements/")
+setwd("~/Repos/mangroveCstabilization/Code_and_Data/")
 Ergebnisse<-read.csv("Ergebnisse_vereinfacht.csv", stringsAsFactors = FALSE)
 C_N_13C<-read.table("C_N_13C.csv", sep=";", dec=".", header = TRUE)
-TOC<-read.csv("Bulk_density/TOC.csv")
-Al_Fe<-read.csv2("Al_Fe/Al_Fe.csv", dec=".")
-Sand_3<-read.csv("XRD/Sand_3.csv")
-Sinu_3<-read.csv("XRD/Sinu_3.csv")
-R5_80_90<-read.csv("XRD/R5_80-90.csv")
-C3_80_85<-read.csv("XRD/C3_80-85.csv")
+TOC<-read.csv("TOC.csv")
+Al_Fe<-read.csv2("Al_Fe.csv", dec=".")
+Sand_3<-read.csv("Sand_3.csv")
+Sinu_3<-read.csv("Sinu_3.csv")
+R5_80_90<-read.csv("R5_80-90.csv")
+C3_80_85<-read.csv("C3_80-85.csv")
 
 
 #######################################################
@@ -33,7 +33,7 @@ anova(lm(Fe_Sum~Type, data=Al_Fe[1:41,]))
 
 #######################################################
 # Fig 2
-pdf("~/Repos/Mangrove/MA_Paper/Springer_Template/Figures/Fig2.pdf")
+#pdf("../Manuscript/Figures/Fig2.pdf")
 par(mfrow=c(3,1))
 boxplot(Cinorg~Type, data=Ergebnisse,  par(mar=c(4,4,1,1)), ylab="Inorganic carbon (%)")
 
@@ -46,10 +46,10 @@ boxplot(Ntotal~Depth_adjusted, data=Ergebnisse[1:51,], par(mar=c(5,4,1,1)), xaxt
 axis(1, at=1:10, labels=c("0-20","20-40","40-60","60-80","80-100","0-20","20-40","40-60","60-80","80-100"), las=1)
 legend("topright", c("basin", "fringe"), col = c("peachpuff","lightsteelblue"), bg = "gray90", pch=15, bty="n", y.intersp = 0.7)
 par(mfrow=c(1,1))
-dev.off()
+#dev.off()
 
 # Fig 3
-pdf("~/Repos/Mangrove/MA_Paper/Springer_Template/Figures/Fig3.pdf")
+#pdf("../Manuscript/Figures/Fig3.pdf")
 par(mfrow=c(3,1), mar=c(4,5,1,1))
 boxplot(DeltaVsPDB_Corr_13_12~Type,data=C_N_13C, ylab=expression(paste(delta^13, "C (per mille)")), ylim=c(-30,0))
 legend("topleft", "a", bty="n")
@@ -60,7 +60,7 @@ boxplot(DeltaVsPDB_Corr_13_12~Depth_adjusted, data=C_N_13C[C_N_13C[,"Type"]=="Fr
         xlab="Depth interval (cm)", ylim=c(-30,-22), col="lightsteelblue")
 legend("topleft", "c", bty="n")
 par(mfrow=c(1,1))
-dev.off()
+#dev.off()
 
 # Fig 4
 par(mar=c(5,4,1,1))
@@ -183,7 +183,7 @@ par(fig=c(0,1,0,1),new=FALSE)
 
 
 # Fig 6
-pdf("~/Repos/Mangrove/MA_Paper/Springer_Template/Figures/Fig6.pdf")
+pdf("../Manuscript/Figures/Fig6.pdf")
 par(mfrow=c(2,2), mar=c(4,4,1,1))
 plot(Ox_Al~Depth, data=Al_Fe,las=2,xaxt = "n",xlab="",ylab=expression('Al'[o]~(ppm)),col=c("peachpuff","peachpuff","peachpuff","peachpuff","peachpuff","lightsteelblue","lightsteelblue","lightsteelblue","lightsteelblue","lightsteelblue","rosybrown3","rosybrown3"))
 axis(1, at=1:12, labels=c("0-20","20-40","40-60","60-80","80-100","0-20","20-40","40-60","60-80","80-100","Sand","River"), las=2)
