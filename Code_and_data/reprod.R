@@ -199,14 +199,21 @@ dev.off()
 
 
 # Mean values with propagated uncertainty
+# For TOC
 B=c(295.61,161.99,68.35,65.21,69.78)
 sum(B)
 sdB=c(203.77,147.07,40.95,30.58,37.60)
 sqrt(sum(sdB^2)/length(sdB))
 
-
 Fr=c(100.24,62.79,51.57,105.44)
 sdF=c(9.03,22.56,51.57,105.44)
 sum(Fr)
 sqrt(sum(sdF^2)/length(sdF))
+
+# For Bulk density
+round(mean(TOC[TOC[,"Type"]=="Basin","BulkDens"]), 2)
+round(sd(TOC[TOC[,"Type"]=="Basin","BulkDens"]), 2)
+
+round(mean(TOC[TOC[,"Type"]=="Fringe","BulkDens"]), 2)
+round(sd(TOC[TOC[,"Type"]=="Fringe","BulkDens"]), 2)
 

@@ -1,0 +1,172 @@
+\begin{thebibliography}{28}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Adame and Lovelock(2011)}]{Adame2011}
+Adame MF, Lovelock CE (2011) Carbon and nutrient exchange of mangrove forests
+  with the coastal ocean. Hydrobiologia 663(1):23--50,
+  \doi{10.1007/s10750-010-0554-7},
+  \urlprefix\url{https://doi.org/10.1007/s10750-010-0554-7}
+
+\bibitem[{Alongi(2012)}]{Alongi2012}
+Alongi DM (2012) Carbon sequestration in mangrove forests. Carbon management
+  3(3):313--322
+
+\bibitem[{Bol{\'\i}var(2015)}]{Bolivar2015}
+Bol{\'\i}var J (2015) {Soil and root carbon in two types of mangroves in
+  Cispat\'a bay (Colombian Caribbean).} Master's thesis, Universidad Nacional
+  de Colombia sede Medell\'in
+
+\bibitem[{Bouillon et~al(2008)Bouillon, Connolly, and Lee}]{Bouillion}
+Bouillon S, Connolly R, Lee S (2008) Organic matter exchange and cycling in
+  mangrove ecosystems: Recent insights from stable isotope studies. Journal of
+  Sea Research 59(1):44 -- 58,
+  \doi{https://doi.org/10.1016/j.seares.2007.05.001},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S1385110107000469},
+  mangrove Macrobenthos Special Issue
+
+\bibitem[{Braakhekke et~al(2013)Braakhekke, Wutzler, Beer, Kattge, Schrumpf,
+  Ahrens, Sch\"oning, Hoosbeek, Kruijt, Kabat, and Reichstein}]{Braakhekke2013}
+Braakhekke MC, Wutzler T, Beer C, Kattge J, Schrumpf M, Ahrens B, Sch\"oning I,
+  Hoosbeek MR, Kruijt B, Kabat P, Reichstein M (2013) Modeling the vertical
+  soil organic matter profile using bayesian parameter estimation.
+  Biogeosciences 10(1):399--420, \doi{10.5194/bg-10-399-2013},
+  \urlprefix\url{http://www.biogeosciences.net/10/399/2013/}
+
+\bibitem[{Donato et~al(2011)Donato, Kauffman, Murdiyarso, Kurnianto, Stidham,
+  and Kanninen}]{Donato2011}
+Donato DC, Kauffman JB, Murdiyarso D, Kurnianto S, Stidham M, Kanninen M (2011)
+  Mangroves among the most carbon-rich forests in the tropics. Nature Geosci
+  4(5):293--297, \urlprefix\url{http://dx.doi.org/10.1038/ngeo1123}
+
+\bibitem[{Elzein and Balesdent(1995)}]{Elzein1995}
+Elzein A, Balesdent J (1995) Mechanistic simulation of vertical distribution of
+  carbon concentrations and residence times in soils. Soil Sci Soc Am J
+  59(5):1328--1335,
+  \urlprefix\url{https://www.soils.org/publications/sssaj/abstracts/59/5/1328}
+
+\bibitem[{Farquhar et~al(1989)Farquhar, Ehleringer, , and
+  Hubick}]{Farquhar1989}
+Farquhar GD, Ehleringer JR, , Hubick KT (1989) Carbon isotope discrimination
+  and photosynthesis. Annual Review of Plant Physiology and Plant Molecular
+  Biology 40(1):503--537, \doi{10.1146/annurev.pp.40.060189.002443}
+
+\bibitem[{Fry(2006)}]{Fry2006}
+Fry B (2006) Stable Isotope Ecology. Springer New York, New York, NY,
+  \doi{10.1007/0-387-33745-8_1},
+  \urlprefix\url{https://doi.org/10.1007/0-387-33745-8_1}
+
+\bibitem[{Holmgren(1967)}]{Holmgren1967}
+Holmgren GGS (1967) A rapid citrate-dithionite extractable iron procedure1.
+  Soil Science Society of America Journal 31(2):210--211,
+  \urlprefix\url{http://dx.doi.org/10.2136/sssaj1967.03615995003100020020x}
+
+\bibitem[{Jardine and Siikam\"aki(2014)}]{Jardine2014}
+Jardine SL, Siikam\"aki JV (2014) A global predictive model of carbon in
+  mangrove soils. Environmental Research Letters 9(10):104,013
+
+\bibitem[{Kaiser and Guggenberger(2000)}]{kaiser2000}
+Kaiser K, Guggenberger G (2000) {The role of DOM sorption to mineral surfaces
+  in the preservation of organic matter in soils}. Organic Geochemistry
+  31(7):711--725
+
+\bibitem[{Lacerda et~al(1995)Lacerda, Ittekkot, and Patchineelam}]{lacerda}
+Lacerda L, Ittekkot V, Patchineelam S (1995) Biogeochemistry of mangrove soil
+  organic matter: a comparison betweenrhizophoraandavicenniasoils in
+  south-eastern brazil. Estuarine, Coastal and Shelf Science 40(6):713 -- 720,
+  \doi{https://doi.org/10.1006/ecss.1995.0048},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0272771485700480}
+
+\bibitem[{Mathieu et~al(2015)Mathieu, Hatt{\'e}, Balesdent, and
+  Parent}]{Mathieu2015}
+Mathieu JA, Hatt{\'e} C, Balesdent J, Parent {\'E} (2015) Deep soil carbon
+  dynamics are driven more by soil type than by climate: a worldwide
+  meta-analysis of radiocarbon profiles. Global Change Biology
+  21(11):4278--4292, \doi{10.1111/gcb.13012},
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.13012},
+  \eprint{https://onlinelibrary.wiley.com/doi/pdf/10.1111/gcb.13012}
+
+\bibitem[{McCaffrey et~al(1987)McCaffrey, Lazar, and Holland}]{McCaffrey}
+McCaffrey MA, Lazar B, Holland HD (1987) The evaporation path of seawater and
+  the coprecipitation of br (super -) and k (super +) with halite. Journal of
+  Sedimentary Research 57(5):928--937,
+  \doi{10.1306/212F8CAB-2B24-11D7-8648000102C1865D},
+  \urlprefix\url{http://jsedres.geoscienceworld.org/content/57/5/928},
+  \eprint{http://jsedres.geoscienceworld.org/content/57/5/928.full.pdf}
+
+\bibitem[{Mikutta et~al(2006)Mikutta, Kleber, Torn, and Jahn}]{Mikutta2006}
+Mikutta R, Kleber M, Torn MS, Jahn R (2006) Stabilization of soil organic
+  matter: Association with minerals or chemical recalcitrance? Biogeochemistry
+  77(1):25--56, \doi{10.1007/s10533-005-0712-6},
+  \urlprefix\url{https://doi.org/10.1007/s10533-005-0712-6}
+
+\bibitem[{Oades(1988)}]{Oades1988}
+Oades JM (1988) The retention of organic matter in soils. Biogeochemistry
+  5(1):35--70, \doi{10.1007/BF02180317},
+  \urlprefix\url{https://doi.org/10.1007/BF02180317}
+
+\bibitem[{Powers and Veldkamp(2005)}]{powers2005}
+Powers JS, Veldkamp E (2005) {Regional variation in soil carbon and $\delta$13C
+  in forests and pastures of northeastern Costa Rica}. Biogeochemistry
+  72(3):315--336
+
+\bibitem[{Prasad and Ramanathan(2008)}]{prasad2008}
+Prasad MBK, Ramanathan A (2008) {Sedimentary nutrient dynamics in a tropical
+  estuarine mangrove ecosystem}. {Estuarine, Coastal and Shelf Science}
+  80(1):60--66
+
+\bibitem[{Ruttenberg and Goni(1997)}]{ruttenberg1997}
+Ruttenberg K, Goni M (1997) {Phosphorus distribution, C: N: P ratios, and
+  $\delta$ 13 C oc in arctic, temperate, and tropical coastal sediments: tools
+  for characterizing bulk sedimentary organic matter}. Marine Geology
+  139(1):123--145
+
+\bibitem[{Schwertmann(1964)}]{Schwertmann}
+Schwertmann U (1964) Differenzierung der eisenoxide des bodens durch extraktion
+  mit ammoniumoxalat-l{\"o}sung. Zeitschrift f{\"u}r Pflanzenern{\"a}hrung,
+  D{\"u}ngung, Bodenkunde 105(3):194--202, \doi{10.1002/jpln.3591050303},
+  \urlprefix\url{http://dx.doi.org/10.1002/jpln.3591050303}
+
+\bibitem[{Serrano(2004)}]{suarez2004}
+Serrano BE (2004) {The Sin{\'u} river delta on the northwestern Caribbean coast
+  of Colombia: bay infilling associated with delta development}. Journal of
+  South American Earth Sciences 16(7):623--631
+
+\bibitem[{Spie{\ss} et~al(2009)Spie{\ss}, Teichert, Schwarzer, Behnken, and
+  Genzel}]{spiess2009}
+Spie{\ss} L, Teichert G, Schwarzer R, Behnken H, Genzel C (2009) {Moderne
+  R{\"o}ntgenbeugung: R{\"o}ntgendiffraktometrie f{\"u}r
+  Materialwissenschaftler, Physiker und Chemiker}. Springer-Verlag
+
+\bibitem[{Spohn and Giani(2012)}]{Spohn2012}
+Spohn M, Giani L (2012) {Carbohydrates, carbon and nitrogen in soils of a
+  marine and a brackish marsh as influenced by inundation frequency}.
+  Estuarine, Coastal and Shelf Science 107:89--96
+
+\bibitem[{Spohn et~al(2013)Spohn, Babka, and Giani}]{Spohn2013}
+Spohn M, Babka B, Giani L (2013) {Changes in soil organic matter quality during
+  sea-influenced marsh soil development at the North Sea coast}. Catena
+  107:110--117
+
+\bibitem[{Tipping(1981)}]{tipping1981}
+Tipping E (1981) {The adsorption of aquatic humic substances by iron oxides}.
+  {Geochimica et Cosmochimica Acta} 45(2):191--199
+
+\bibitem[{Urrego et~al(2014)Urrego, Molina, and Su{\'a}rez}]{urrego2014}
+Urrego L, Molina E, Su{\'a}rez J (2014) {Environmental and anthropogenic
+  influences on the distribution, structure, and floristic composition of
+  mangrove forests of the Gulf of Urab{\'a} (Colombian Caribbean)}. {Aquatic
+  Botany} 114:42--49
+
+\bibitem[{Werner and Brand(2001)}]{werner2001}
+Werner RA, Brand WA (2001) {Referencing strategies and techniques in stable
+  isotope ratio analysis}. Rapid Communications in Mass Spectrometry
+  15(7):501--519
+
+\end{thebibliography}
