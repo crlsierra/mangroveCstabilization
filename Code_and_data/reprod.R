@@ -12,24 +12,47 @@ C3_80_85<-read.csv("C3_80-85.csv")
 
 #######################################################
 # Statistical comparisons
-mangroveOnly=rbind(Ergebnisse[Ergebnisse$Type=="Fringe",], Ergebnisse[Ergebnisse$Type=="Basin",]) #Exclude data from the end members
+mangroveOnly=rbind(Ergebnisse[Ergebnisse$Type=="Fringe",], Ergebnisse[Ergebnisse$Type=="Basin",]) # Exclude data from the end members
+mangAlFe=Al_Fe[Al_Fe[,"Type"]=="Fringe" | Al_Fe[,"Type"]=="Basin",c("Type","Al_Sum", "Fe_Sum")] # Exclude data from the end members
 
 # Comparison for Organic carbon
-anova(lm(Corg~Type, data=mangroveOnly))
+shapiro.test(mangroveOnly[mangroveOnly[,"Type"]=="Fringe","Corg"]) #Normality test
+shapiro.test(mangroveOnly[mangroveOnly[,"Type"]=="Basin","Corg"])
+
+wilcox.test(Corg~Type, data=mangroveOnly, exact=FALSE) #Non-parametric test for comparing whether samples are from the same distribution. For two samples, the test is know as 'Mann-Whitney test'.
 
 # Comparison for total nitrogen
-anova(lm(Ntotal~Type, data=mangroveOnly))
+shapiro.test(mangroveOnly[mangroveOnly[,"Type"]=="Fringe","Ntotal"])
+shapiro.test(mangroveOnly[mangroveOnly[,"Type"]=="Basin","Ntotal"])
+
+wilcox.test(Ntotal~Type, data=mangroveOnly, exact=FALSE)
 
 # Comparison TOC
-anova(lm(TOC~Type, data=TOC))
+# Data must be aggregated across depth for each plot
+plotTOC=tapply(TOC[,"TOC"], TOC[,"Plot_Number"], FUN=sum)
 
-# Comparison 13C
-anova(lm(d13C~Type, data=mangroveOnly))
+mean(plotTOC[c("P21", "R1", "R4", "R5", "R6")]) # Fringe plots
+sd(plotTOC[c("P21", "R1", "R4", "R5", "R6")])
+
+mean(plotTOC[c("P16", "C1", "C2", "C3", "C4")]) # Basin plots
+sd(plotTOC[c("P16", "C1", "C2", "C3", "C4")])
+
+wilcox.test(TOC~Type, data=TOC, exact=FALSE)
+
+ # Comparison 13C
+shapiro.test(mangroveOnly[mangroveOnly[,"Type"]=="Fringe","d13C"])
+shapiro.test(mangroveOnly[mangroveOnly[,"Type"]=="Basin","d13C"])
+
+wilcox.test(d13C~Type, data=mangroveOnly, exact=FALSE)
 
 # Comparisons for Al and Fe oxides
-anova(lm(Al_Sum~Type, data=Al_Fe[1:41,]))
+shapiro.test(Al_Fe[Al_Fe[,"Type"]=="Fringe","Al_Sum"])
+shapiro.test(Al_Fe[Al_Fe[,"Type"]=="Fringe","Al_Sum"])
 
-anova(lm(Fe_Sum~Type, data=Al_Fe[1:41,]))
+wilcox.test(Al_Sum~Type, data=mangAlFe, exact=FALSE)
+
+wilcox.test(Fe_Sum~Type, data=mangAlFe, exact=FALSE)
+
 
 #######################################################
 # Fig 2

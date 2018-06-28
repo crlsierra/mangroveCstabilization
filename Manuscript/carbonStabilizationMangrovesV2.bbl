@@ -1,4 +1,4 @@
-\begin{thebibliography}{28}
+\begin{thebibliography}{29}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -61,6 +61,13 @@ Farquhar GD, Ehleringer JR, , Hubick KT (1989) Carbon isotope discrimination
 Fry B (2006) Stable Isotope Ecology. Springer New York, New York, NY,
   \doi{10.1007/0-387-33745-8_1},
   \urlprefix\url{https://doi.org/10.1007/0-387-33745-8_1}
+
+\bibitem[{Hollander et~al(2015)Hollander, A.~Wolfe, and
+  Chicken}]{Hollander2015}
+Hollander M, A~Wolfe D, Chicken E (2015) Nonparametric Statistical Methods.
+  Wiley-Blackwell, \doi{10.1002/9781119196037.fmatter},
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119196037.fmatter},
+  \eprint{https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119196037.fmatter}
 
 \bibitem[{Holmgren(1967)}]{Holmgren1967}
 Holmgren GGS (1967) A rapid citrate-dithionite extractable iron procedure1.

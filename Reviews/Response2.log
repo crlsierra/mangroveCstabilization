@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  27 JUN 2018 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 JUN 2018 11:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -361,7 +361,7 @@ File: ../../../Documents/Personal/firma.jpg Graphic file (type jpg)
 
 <use ../../../Documents/Personal/firma.jpg>
 Package pdftex.def Info: ../../../Documents/Personal/firma.jpg used on input li
-ne 160.
+ne 162.
 (pdftex.def)             Requested size: 104.46556pt x 61.71814pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -374,14 +374,14 @@ $[]$
  []
 
 [6 <../../../Documents/Personal/firma.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 163.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 165.
  (./Response2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
 Package rerunfilecheck Info: File `Response2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  ) 
 Here is how much of TeX's memory you used:
  5468 strings out of 492995
@@ -402,7 +402,7 @@ e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/t
 exmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-di
 st/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
-Output written on Response2.pdf (6 pages, 390213 bytes).
+Output written on Response2.pdf (6 pages, 390868 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  106 compressed objects within 2 object streams
