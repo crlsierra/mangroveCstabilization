@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 JUN 2018 15:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  29 JUN 2018 15:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -266,53 +266,56 @@ Underfull \vbox (badness 1924) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-[4] [5] [6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+[5]
+Underfull \vbox (badness 1694) has occurred while \output is active []
+
+ [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-[9]
+[8] [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
-[12]
+Underfull \vbox (badness 1694) has occurred while \output is active []
+
+ [12]
+[13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
-Overfull \hbox (3.0551pt too wide) in paragraph at lines 209--210
+ [14]
+Overfull \hbox (3.0551pt too wide) in paragraph at lines 211--212
 \OT1/cmr/m/n/10 C3 plants frac-tion-ate $[]$C dur-ing pho-to-syn-the-sis, with 
 val-ues from [],
  []
 
-[14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15]
+[15]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
-[18] [19]
-Underfull \hbox (badness 2903) in paragraph at lines 256--256
+[18] [19] [20]
+Underfull \hbox (badness 2903) in paragraph at lines 258--258
 []\OT1/cmr/bx/n/8 Fig. 1|\OT1/cmr/m/n/8 Sampling plots in Cis-pat^^Sa Bay and M
 on-ter^^S^^Pa, Colom-bia, ArcGIS-source:
  []
 
-[20
+[21
 
 ]
-Overfull \hbox (2.92206pt too wide) in paragraph at lines 315--331
+Overfull \hbox (2.92206pt too wide) in paragraph at lines 317--333
 [][] 
  []
 
-(./carbonStabilizationMangrovesV2.bbl [21
+(./carbonStabilizationMangrovesV2.bbl [22
 
 ]
 Underfull \hbox (badness 3250) in paragraph at lines 27--33
@@ -323,7 +326,7 @@ edirect . com / science / article /
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
+ [23]
 Underfull \hbox (badness 1622) in paragraph at lines 56--59
 \OT1/cmr/m/n/10 crim-i-na-tion and pho-to-syn-the-sis. An-nual Re-view of Plant
  Phys-i-ol-ogy
@@ -356,7 +359,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--71
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
+ [24]
 Underfull \hbox (badness 2409) in paragraph at lines 103--109
 []\OT1/cmr/m/n/10 McCaffrey MA, Lazar B, Hol-land HD (1987) The evap-o-ra-tion 
 path
@@ -377,11 +380,11 @@ Underfull \hbox (badness 4940) in paragraph at lines 103--109
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
+ [25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25])
-[26] (./carbonStabilizationMangrovesV2.aux)
+ [26])
+[27] (./carbonStabilizationMangrovesV2.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -390,11 +393,11 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  2851 strings out of 492995
  38271 string characters out of 6132704
- 104922 words of memory out of 5000000
+ 103922 words of memory out of 5000000
  6358 multiletter control sequences out of 15000+600000
  13480 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,9n,25p,1978b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,9n,25p,1978b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pf
 b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
@@ -412,10 +415,10 @@ e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 17/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/201
 7/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2
 017/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
-Output written on carbonStabilizationMangrovesV2.pdf (26 pages, 230315 bytes).
+Output written on carbonStabilizationMangrovesV2.pdf (27 pages, 230905 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
+ 160 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
