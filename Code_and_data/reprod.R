@@ -27,18 +27,6 @@ shapiro.test(mangroveOnly[mangroveOnly[,"Type"]=="Basin","Ntotal"])
 
 wilcox.test(Ntotal~Type, data=mangroveOnly, exact=FALSE)
 
-# Comparison TOC
-# Data must be aggregated across depth for each plot
-plotTOC=tapply(TOC[,"TOC"], TOC[,"Plot_Number"], FUN=sum)
-
-mean(plotTOC[c("P21", "R1", "R4", "R5", "R6")]) # Fringe plots
-sd(plotTOC[c("P21", "R1", "R4", "R5", "R6")])
-
-mean(plotTOC[c("P16", "C1", "C2", "C3", "C4")]) # Basin plots
-sd(plotTOC[c("P16", "C1", "C2", "C3", "C4")])
-
-wilcox.test(TOC~Type, data=TOC, exact=FALSE)
-
  # Comparison 13C
 shapiro.test(mangroveOnly[mangroveOnly[,"Type"]=="Fringe","d13C"])
 shapiro.test(mangroveOnly[mangroveOnly[,"Type"]=="Basin","d13C"])
@@ -223,15 +211,13 @@ dev.off()
 
 # Mean values with propagated uncertainty
 # For TOC
-B=c(295.61,161.99,68.35,65.21,69.78)
-sum(B)
-sdB=c(203.77,147.07,40.95,30.58,37.60)
-sqrt(sum(sdB^2)/length(sdB))
+meanTOCdepth=tapply(TOC[,"TOC"], list(TOC[,"Type"], TOC[,"Depth_adjusted"]),FUN=mean)
+sdTOCdepth=tapply(TOC[,"TOC"], list(TOC[,"Type"], TOC[,"Depth_adjusted"]),FUN=sd)
 
-Fr=c(100.24,62.79,51.57,105.44)
-sdF=c(9.03,22.56,51.57,105.44)
-sum(Fr)
-sqrt(sum(sdF^2)/length(sdF))
+sumTOC=rowSums(meanTOCdepth, na.rm=TRUE)
+round(sumTOC, 2)
+sdTOC=apply(sdTOCdepth, 1, FUN=function(x){sqrt(sum(x^2,na.rm=TRUE))})
+round(sdTOC,2)
 
 # For Bulk density
 round(mean(TOC[TOC[,"Type"]=="Basin","BulkDens"]), 2)
